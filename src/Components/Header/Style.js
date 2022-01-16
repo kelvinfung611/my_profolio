@@ -5,7 +5,7 @@ import { createTheme } from '@mui/material/styles';
 const Theme = createTheme()
 
 export const useStyles = makeStyles((props)=>({
-    box:{
-    backgroundColor:theme.color2,
+    appBar:{
+    backgroundColor: theme.color1,
     }
 }));

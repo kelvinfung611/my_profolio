@@ -6,6 +6,11 @@ const Theme = createTheme()
 
 export const useStyles = makeStyles((props)=>({
     box:{
-    backgroundColor:theme.color2,
+    color: theme.color4,
+    backgroundColor:theme.color1,
+    display: 'flex',
+    height: "20px",
+    flexDirection: 'column',
+    height: "200px",
     }
 }));
